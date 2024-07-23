@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+  <section>
+    <div class="card">
+      <div class="card1">
+        <form action="" id="myForm">
+          <h1>Register</h1>
+
+          <div class="field">
+            <span class="icon"><i class="fa-solid fa-user"></i></span>
+            <input type="text" placeholder="Name">
+          </div>
+          <span id="nameError" style="color:red"></span>
+
+          <div class="field">
+            <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+            <input type="email" placeholder="Email">
+          </div>
+
+          <div class="field">
+            <span class="icon"><i class="fa-solid fa-mobile-screen"></i></span>
+            <input type="tel" placeholder="Mobile Number" pattern="(0-9){10}">
+          </div>
+
+          <div class="field">
+            <span class="icon"><i class="fa-solid fa-lock"></i></span>
+            <input type="password" placeholder="Password">
+          </div>
+
+          <div class="field">
+            <span class="icon"><i class="fa-solid fa-lock"></i></span>
+            <input type="password" placeholder="Confirm Password">
+          </div>
+
+          <input type="submit" value="submit" class="btn">
+
+        </form>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
